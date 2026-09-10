@@ -17,3 +17,7 @@ def binary_search(arr, target):
 
 arr = [2, 4, 6, 8, 10, 12]
 print(binary_search(arr, 10))
+
+
+# Time: Best O(1), Average/Worst O(log n)
+# Space: O(1)
