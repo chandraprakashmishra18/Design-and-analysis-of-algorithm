@@ -1,3 +1,26 @@
+# You are building a complete algorithm performance assessment tool.
+
+# For a given integer n, an array of n integers and a target value, perform computation, searching, sorting and complexity comparisons.
+
+# The program must calculate factorial and Fibonacci using both recursive and iterative approaches.
+
+# The program must search the target using Linear Search on the original array.
+
+# The program must sort the array and search the target using Binary Search on the sorted array.
+
+# The program must sort the array using Bubble Sort and Insertion Sort.
+
+# For performance comparison, display deterministic comparison counts instead of actual execution time.
+
+# For Bubble Sort, use optimized Bubble Sort and count element comparisons and swaps.
+
+# For Insertion Sort, count element comparisons and shifts.
+
+# For Binary Search, display the index of the target in the sorted array. If the target is not found, display -1.
+
+# For Linear Search, display the index of the target in the original array. If the target is not found, display -1.
+
+# Finally, display a simple complexity summary and identify the better searching and sorting method based on fewer comparisons.
 def complete_algorithm_performance_assessment(n, arr, target):
     def factorial_recursive(n):
         if n <= 1:
